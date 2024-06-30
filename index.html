@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPo6 Gestión de inventario de productos</title>
+</head>
+<body>
+    <h5>Apretar F12 -> Console Para ingresar los siguientes comandos</h5>
+    <h5>a) Para agregar producto: <br>
+        agregarProducto({<br>
+        nombre: "Impresora",<br>
+        categoria: "Electrónica",<br>
+        precio: 250,<br>
+        cantidad: 5,<br>
+        codigo: "P006"<br>
+    })  <br>
+    <br>
+    inventario
+</h5>
+    <h5>
+b) Para Eliminar producto: <br>
+eliminarProducto("P002") <br>
+<br>
+inventario
+    </h5>
+    <h5>
+        c) Para Actualizar cantidad: <br>
+        actualizarCantidad("P003", 45) <br>
+        <br>
+        inventario
+    </h5>
+    <h5>
+        d) Para buscar por categoría: <br>
+        console.log(buscarProductoPorCategoria("Electrónica"))
+    </h5>
+    <h5>
+        e) Para calcular el valor total: <br>
+        console.log("Valor total del inventario: $" + calcularValorTotal())
+    </h5>
+    <script src="js/app.js"></script>
+</body>
+</html>
