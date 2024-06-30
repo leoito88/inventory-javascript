@@ -104,8 +104,8 @@ Con el comando anterior sólo mostramos los items con categoría Electrónica
 ### e) Para calcular el valor total:
 console.log("Valor total del inventario: $" + calcularValorTotal())
 
-Nos mostraría lo siguiente:
-![5](https://github.com/leoito88/inventory-javascript/assets/59623841/13aeccc7-92ce-480e-b136-bd49984e74b1)
+Nos mostraría lo siguiente: <br>
+![5](https://github.com/leoito88/inventory-javascript/assets/59623841/13aeccc7-92ce-480e-b136-bd49984e74b1) <br>
 En este caso nos está mostrando el precio total de todos los items menos el P002
 
 
